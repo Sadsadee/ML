@@ -29,7 +29,7 @@ if(selected == 'Stress'):
     Caffeine_Intake_Cups = st.text_input('Caffeine_Intake_Cups')
     Weekend_Screen_Time_Hours = st.text_input('Weekend_Screen_Time_Hours')
  
-    stress_predict = ''
+    Stress_predict = ''
  
     if st.button('Predict'):
         Stress_predict = stress_model.predict([[
@@ -47,7 +47,7 @@ if(selected == 'Stress'):
         ]])
  
         
-    st.success(stress_predict)
+    st.success(Stress_predict)
 
 if(selected == 'RidingMower'):
     st.title('RidingMower Prediction')
