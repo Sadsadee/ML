@@ -19,7 +19,7 @@ with st.sidebar:
     selected = option_menu('Classification',['LOAN','RidingMower','Stress'])
 
 
- if(selected == 'Stress'):
+ if(selected == 'stress'):
     st.title('Stress Prediction')
     
     #user input
